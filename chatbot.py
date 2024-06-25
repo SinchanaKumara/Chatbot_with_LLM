@@ -7,7 +7,7 @@ def get_response(prompt):
     url = "http://localhost:11434/api/generate"
     headers = {"Content-Type": "application/json"}
     payload = {
-        "model": "llama3",
+        "model": "gemma:2b",
         "prompt": prompt,
     }
     try:
